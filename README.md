@@ -44,6 +44,14 @@ Podemos ver melhor pelo gráfico de pizza que o target tem mais pessoas que não
 
 Podemos ver pelos grafico de histogramas a diferenças nos pesos das variaveis, sendo então que será necessária a normalização dos dados
 
+Pela imagem abaixo, no dataset, quem tem mais de 80 anos em ambos os sexos pode sofrer o ataque cardiaco (desconsiderando un casos)
+
+![image](https://user-images.githubusercontent.com/39843884/168916008-cce81f55-1f79-4ea9-b702-648e9c8ed598.png)
+
+E uma coisa interessante que pode ser visto neste gráfico de dispersão e quem passou mais dias de acompnahmento em sua maioria não sofreu um ataque e quem passou menos em sua maioria sofreu um ataque.
+
+![image](https://user-images.githubusercontent.com/39843884/168917103-2be0b385-6a8d-499f-adef-ec0f465347d6.png)
+
 # Aplicando ML sem hiperparametros
 
 :construction: Em construção :construction:
