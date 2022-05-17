@@ -10,7 +10,7 @@ Dada a complexidade desde projeto, o mesmo foi dividido em partes
 ## Indice
 * [Visualização dos dados](#visualização-dos-dados)
 * [Aplicando ML sem hiperparemtros](#aplicando-ml-sem-hiperparametros) 
-* [Aplicando ML com Hiperparametros](#aplicando-ml-com-hiperparametros)
+* [Aplicando ML com hiperparametros](#aplicando-ml-com-hiperparametros)
 * [Referências](#referências)
 
 # Visualização dos dados
@@ -44,11 +44,11 @@ Podemos ver melhor pelo gráfico de pizza que o target tem mais pessoas que não
 
 Podemos ver pelos grafico de histogramas a diferenças nos pesos das variaveis, sendo então que será necessária a normalização dos dados
 
-# Aplicando ML sem hiperparemtro
+# Aplicando ML sem hiperparametros
 
 :construction: Em construção :construction:
 
-# Aplicando ML com Hiperparametros
+# Aplicando ML com hiperparametros
 
 :construction: Em construção :construction:
 
