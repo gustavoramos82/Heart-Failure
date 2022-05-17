@@ -56,4 +56,4 @@ Podemos ver pelos grafico de histogramas a diferenças nos pesos das variaveis, 
 
 1 - Modelos de Machine Learning para tomada de decisão no sistema de saúde público brasileiro, Autores : Guilherme Ferreira da Silva e Daielly Melina Nassif Mantovani, 2020 (ano de publicação) pode ser acessado nesse [link](https://login.semead.com.br/23semead/anais/arquivos/1117.pdf?)
 
-**Obs**: A medida que for sendo novos materiais, eles vão sendo adicionados.
+**Obs**: A medida que for sendo usado novos materiais, eles vão sendo adicionados.
