@@ -9,9 +9,9 @@ Dada a complexidade desde projeto, o mesmo foi dividido em partes
 
 ## Indice
 * [Visualização dos dados](#visualização-dos-dados)
-* [Aplicando ML sem hiperparemtros](#aplicando-ml-Hiperparametros) 
-* [Aplicando ML com Hiperparametros](#aplicando-ml-com-Hiperparametros)
-* [Referências](#referencias)
+* [Aplicando ML sem hiperparemtros](#aplicando-ml-sem-hiperparametros) 
+* [Aplicando ML com Hiperparametros](#aplicando-ml-com-hiperparametros)
+* [Referências](#referências)
 
 # Visualização dos dados
 - [Notebook dos códigos](https://github.com/gustavoramos82/Heart-failure/blob/main/heart_visualiza%C3%A7%C3%A3o.ipynb)
