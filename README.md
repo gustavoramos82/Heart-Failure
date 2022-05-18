@@ -59,7 +59,7 @@ E uma coisa interessante que pode ser visto neste gráfico de dispersão e quem 
 Com o objetivo de ter uma base antes de fazer uma otimização dos parâmetros, e com base nos trabalhos de Silva e Mantonani (2020), Santos et al (2019) e Gomes (2019), foi escolhido os seguintes algoritmos de classificação:
 - random forest;
 - regressão logística;
-- árvores de decisão;
+- árvore de decisão;
 - naive bayes.
 
 Usando o *cross validation* tivemos os seguintes resultados (também foi usado o *undersampling* para os modelos fiquem menos enviesados): 
