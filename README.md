@@ -54,7 +54,25 @@ E uma coisa interessante que pode ser visto neste gráfico de dispersão e quem 
 
 # Aplicando ML sem hiperparametros
 
-:construction: Em construção :construction:
+- [Notebook dos códigos](https://github.com/gustavoramos82/Heart-failure/blob/main/heart_sem_oti.ipynb)
+
+Com o objetivo de ter uma base antes de fazer uma otimização dos parâmetros, e com base nos trabalhos de Silva e Mantonani (2020), Santos et al (2019) e Gomes (2019), foi escolhido os seguintes algoritmos de classificação:
+- random forest;
+- regressão logística;
+- árvores de decisão;
+- naive bayes.
+
+Usando o *cross validation* tivemos os seguintes resultados (também foi usado o *undersampling* para os modelo ficarem menos enviesados): 
+
+![image](https://user-images.githubusercontent.com/39843884/169055606-55600dcd-ac97-47f7-aba2-b57358001b24.png)
+
+Com esses resultados, temos que:
+
+- A árvore de decisão foi o que teve melhor perfomace, muito próximo a ele foi o random forest;
+- To os valores estão acima de 70%;
+- Naive bayes foi o que teve a pior perfomace
+
+Com isso veremos se com a otimização dos hiperparametros os modelos tem uma melhor perfomace.
 
 # Aplicando ML com hiperparametros
 
@@ -62,6 +80,10 @@ E uma coisa interessante que pode ser visto neste gráfico de dispersão e quem 
 
 # Referências
 
-1 - Modelos de Machine Learning para tomada de decisão no sistema de saúde público brasileiro, Autores : Guilherme Ferreira da Silva e Daielly Melina Nassif Mantovani, 2020 (ano de publicação) pode ser acessado nesse [link](https://login.semead.com.br/23semead/anais/arquivos/1117.pdf?)
+1 - Modelos de Machine Learning para tomada de decisão no sistema de saúde público brasileiro, Autores : Guilherme Ferreira da Silva e Daielly Melina Nassif Mantovani, 2020 (ano de publicação) pode ser acessado nesse [link](https://login.semead.com.br/23semead/anais/arquivos/1117.pdf?) .
+
+2 - Machine learning para análises preditivas em saúde: exemplo de aplicação para predizer óbito em idosos de São Paulo, Brasil, Autores: Hellen Geremias dos Santos, Carla Ferreira do Nascimento, Rafael Izbicki,Yeda Aparecida de Oliveira Duarte e Alexandre Dias Porto Chiavegatto Filho, 2019 (ano de piblicação) pode ser acessado nesse [link](https://www.scielo.br/j/csp/a/jyhKL6G4dZhcbchMD6bcS8s/?format=pdf&lang=pt) .
+
+3 - Classificação com Naive Bayes,  Pedro César Tebaldi Gomes, 2019 (ano de publicação), acessado em: 18/05/2022 as 10:36 (pode ser acessado nesse [aqui](https://www.datageeks.com.br/naive-bayes/)).
 
 **Obs**: A medida que for sendo usado novos materiais, eles vão sendo adicionados.
