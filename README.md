@@ -62,7 +62,7 @@ Com o objetivo de ter uma base antes de fazer uma otimização dos parâmetros, 
 - árvores de decisão;
 - naive bayes.
 
-Usando o *cross validation* tivemos os seguintes resultados (também foi usado o *undersampling* para os modelo ficarem menos enviesados): 
+Usando o *cross validation* tivemos os seguintes resultados (também foi usado o *undersampling* para os modelos fiquem menos enviesados): 
 
 ![image](https://user-images.githubusercontent.com/39843884/169055606-55600dcd-ac97-47f7-aba2-b57358001b24.png)
 
