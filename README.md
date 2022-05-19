@@ -104,11 +104,13 @@ Foi utilizados o para otimização do hiperparametros o grid search e o random s
 
 Com o *grid search*:
 {'dual': False, 'fit_intercept': True, 'max_iter': 5, 'multi_class': 'auto', 'penalty': 'l2'} 
- com score de 0.7333333333333333
+
+com score de 0.7333333333333333
 
 Com e com o *random search*:
 {'penalty': 'none', 'multi_class': 'ovr', 'max_iter': 52, 'fit_intercept': True, 'dual': False}
-0.7333333333333333
+
+com score de 0.7333333333333333
 
 Assim foram obtidos os seguintes resultados, a partir das métricas:
 
