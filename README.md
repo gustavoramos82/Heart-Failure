@@ -98,7 +98,7 @@ Podemos ver que com o grid search e o random search teve uma melhora, principalm
 
 ## Com regressão logística
 
-- [Link do noteboo](https://github.com/gustavoramos82/Heart-failure/blob/main/heart_oti_rg.ipynb)
+- [Link do notebook](https://github.com/gustavoramos82/Heart-failure/blob/main/heart_oti_rg.ipynb)
 
 Foi utilizados o para otimização do hiperparametros o grid search e o random search e foi obtido os seguintes resultados q teve como melhores:
 
