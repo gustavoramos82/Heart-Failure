@@ -78,6 +78,8 @@ Com isso veremos se com a otimização dos hiperparametros os modelos tem uma me
 
 ## Com random forest
 
+- [Link do noteboook](https://github.com/gustavoramos82/Heart-failure/blob/main/heart_oti_random.ipynb)
+
 Foi utilizados o para otimização do hiperparametros o grid search e o random search e foi obtido os seguintes resultados q teve como melhores:
 
 Com o *grid search*:
