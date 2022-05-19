@@ -96,6 +96,25 @@ Tivemos uma melhora nas metricas com segue abaixo:
 
 Podemos ver que com o grid search e o random search teve uma melhora, principalmente na precisão, embora que com o grid search teve uma maior melhora, mas é importante observar que o random search o processamento é mais rápido que com o grid search.
 
+## Com regressão logística
+
+- [Link do noteboo](https://github.com/gustavoramos82/Heart-failure/blob/main/heart_oti_rg.ipynb)
+
+Foi utilizados o para otimização do hiperparametros o grid search e o random search e foi obtido os seguintes resultados q teve como melhores:
+
+Com o *grid search*:
+{'dual': False, 'fit_intercept': True, 'max_iter': 5, 'multi_class': 'auto', 'penalty': 'l2'} 
+ com score de 0.7333333333333333
+
+Com e com o *random search*:
+{'penalty': 'none', 'multi_class': 'ovr', 'max_iter': 52, 'fit_intercept': True, 'dual': False}
+0.7333333333333333
+
+Assim foram obtidos os seguintes resultados, a partir das métricas:
+
+![image](https://user-images.githubusercontent.com/39843884/169395999-e1d9d20c-bbb7-470c-9fda-06e8f7a29c9e.png)
+
+Podemos ver que aplicando a otimização teve uma melhora, entretanto, com o grid search e o random search tiveram praticamente os mesmos resultados.
 
 :construction: Os outros algoritmos estão em processo de construção :construction:
 
