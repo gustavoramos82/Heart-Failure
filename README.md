@@ -76,7 +76,26 @@ Com isso veremos se com a otimização dos hiperparametros os modelos tem uma me
 
 # Aplicando ML com hiperparametros
 
-:construction: Em construção :construction:
+## Com random forest
+
+Foi utilizados o para otimização do hiperparametros o grid search e o random search e foi obtido os seguintes resultados q teve como melhores:
+
+Com o *grid search*:
+ {'bootstrap': False, 'class_weight': 'balanced', 'criterion': 'entropy', 'max_features': 'sqrt', 'n_estimators': 7, 'warm_start': True} 
+ com score de 0.796221322537112
+
+e com o *random search*:
+{'warm_start': True, 'n_estimators': 6, 'max_features': 'log2', 'criterion': 'entropy', 'class_weight': 'balanced', 'bootstrap': True} 
+com score de 0.769770580296896
+
+Tivemos uma melhora nas metricas com segue abaixo:
+
+![image](https://user-images.githubusercontent.com/39843884/169345192-c03fd432-ab67-4358-bcfe-9eb57bb0c4c1.png)
+
+Podemos ver que com o grid search e o random search teve uma melhora, principalmente na precisão, embora que com o grid search teve uma maior melhora, mas é importante observar que o random search o processamento é mais rápido que com o grid search.
+
+
+:construction: Os outros algoritmos estão em processo de construção :construction:
 
 # Referências
 
