@@ -180,4 +180,4 @@ ou seja, os valores chegando próximos a 80%, como os dados tem mais gente com t
 
 3 - Classificação com Naive Bayes,  Pedro César Tebaldi Gomes, 2019 (ano de publicação), acessado em: 18/05/2022 as 10:36 (pode ser acessado nesse [aqui](https://www.datageeks.com.br/naive-bayes/)).
 
-**Obs**: A medida que for sendo usado novos materiais, eles vão sendo adicionados.
+
