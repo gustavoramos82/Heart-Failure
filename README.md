@@ -118,6 +118,27 @@ Assim foram obtidos os seguintes resultados, a partir das métricas:
 
 Podemos ver que aplicando a otimização teve uma melhora, entretanto, com o grid search e o random search tiveram praticamente os mesmos resultados.
 
+## Com árvore de decisão
+
+-[Link do noteboo](https://github.com/gustavoramos82/Heart-failure/blob/main/arv_de_decis%C3%A3o_oti.ipynb)
+
+Foi utilizados o para otimização do hiperparametros o grid search e o random search e foi obtido os seguintes resultados q teve como melhores:
+
+Com o *grid search*:
+{'criterion': 'gini', 'max_features': 'auto', 'max_leaf_nodes': 30, 'min_impurity_decrease': 1, 'min_samples_leaf': 1, 'splitter': 'best'}
+
+com score de 0.4948717948717949
+
+E com o *random search*:
+{'splitter': 'best', 'min_samples_leaf': 59, 'min_impurity_decrease': 11, 'max_leaf_nodes': 45, 'max_features': 'log2', 'criterion': 'entropy'}
+com score de 0.4948717948717949
+
+Assim foram obtidos os seguintes resultados, a partir das métricas:
+
+![image](https://user-images.githubusercontent.com/39843884/169555828-fe3dba83-f35f-4396-8fa3-f6829c26b98e.png)
+
+Temos então, que não teve uma melhora com a otimização de parametros
+
 :construction: Os outros algoritmos estão em processo de construção :construction:
 
 # Referências
