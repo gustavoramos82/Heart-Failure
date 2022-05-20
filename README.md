@@ -12,6 +12,7 @@ Dada a complexidade desde projeto, o mesmo foi dividido em partes
 * [Aplicando ML sem hiperparemtros](#aplicando-ml-sem-hiperparametros) 
 * [Aplicando ML com hiperparametros](#aplicando-ml-com-hiperparametros)
 * [Referências](#referências)
+* [Considerações finais](#considerações-finais)
 
 # Visualização dos dados
 - [Notebook dos códigos](https://github.com/gustavoramos82/Heart-failure/blob/main/heart_visualiza%C3%A7%C3%A3o.ipynb)
@@ -80,7 +81,7 @@ Com isso veremos se com a otimização dos hiperparametros os modelos tem uma me
 
 - [Link do noteboook](https://github.com/gustavoramos82/Heart-failure/blob/main/heart_oti_random.ipynb)
 
-Foi utilizados o para otimização do hiperparametros o grid search e o random search e foi obtido os seguintes resultados q teve como melhores:
+Foram utilizados o para otimização do hiperparametros o grid search e o random search e foi obtido os seguintes resultados q teve como melhores:
 
 Com o *grid search*:
  {'bootstrap': False, 'class_weight': 'balanced', 'criterion': 'entropy', 'max_features': 'sqrt', 'n_estimators': 7, 'warm_start': True} 
@@ -100,7 +101,7 @@ Podemos ver que com o grid search e o random search teve uma melhora, principalm
 
 - [Link do notebook](https://github.com/gustavoramos82/Heart-failure/blob/main/heart_oti_rg.ipynb)
 
-Foi utilizados o para otimização do hiperparametros o grid search e o random search e foi obtido os seguintes resultados q teve como melhores:
+Foram utilizados o para otimização do hiperparametros o grid search e o random search e foi obtido os seguintes resultados q teve como melhores:
 
 Com o *grid search*:
 {'dual': False, 'fit_intercept': True, 'max_iter': 5, 'multi_class': 'auto', 'penalty': 'l2'} 
@@ -120,9 +121,9 @@ Podemos ver que aplicando a otimização teve uma melhora, entretanto, com o gri
 
 ## Com árvore de decisão
 
--[Link do noteboo](https://github.com/gustavoramos82/Heart-failure/blob/main/arv_de_decis%C3%A3o_oti.ipynb)
+-[Link do notebook](https://github.com/gustavoramos82/Heart-failure/blob/main/arv_de_decis%C3%A3o_oti.ipynb)
 
-Foi utilizados o para otimização do hiperparametros o grid search e o random search e foi obtido os seguintes resultados q teve como melhores:
+Foram utilizados o para otimização do hiperparametros o grid search e o random search e foi obtido os seguintes resultados q teve como melhores:
 
 Com o *grid search*:
 {'criterion': 'gini', 'max_features': 'auto', 'max_leaf_nodes': 30, 'min_impurity_decrease': 1, 'min_samples_leaf': 1, 'splitter': 'best'}
@@ -137,9 +138,39 @@ Assim foram obtidos os seguintes resultados, a partir das métricas:
 
 ![image](https://user-images.githubusercontent.com/39843884/169555828-fe3dba83-f35f-4396-8fa3-f6829c26b98e.png)
 
-Temos então, que não teve uma melhora com a otimização de parametros
+Temos então, que não teve uma melhora com a otimização de parametros.
 
-:construction: Os outros algoritmos estão em processo de construção :construction:
+## Com naive bayes
+
+- [Link do notebook](https://github.com/gustavoramos82/Heart-failure/blob/main/oti_naive_bayes.ipynb)
+
+Foram utilizados o para otimização do hiperparametros o grid search e o random search e foi obtido os seguintes resultados q teve como melhores:
+Com o *grid search*:
+
+{'var_smoothing': 0.0}
+
+com score de 0.6920377867746288
+
+E com *random search*
+
+{'var_smoothing': 1.0204081632653061}
+com score de 0.6241565452091767
+
+Assim foram obtidos os seguintes resultados, a partir das métricas:
+
+![image](https://user-images.githubusercontent.com/39843884/169565740-1ceb2dc2-6271-45e7-a5b9-d868f0a9078c.png)
+
+Com pode ver, não houve uma melhora na perfomace.
+
+# Considerações finais
+
+como podemos ver, o modelo que saiu com o melhor resultado foi o rando forest fazendo a otimização dos parâmetros, no qual tem a seguintes métricas:
+
+![image](https://user-images.githubusercontent.com/39843884/169566499-d343d573-e8f9-4edf-9117-bfab8f637ad1.png)
+
+ou seja, os valores chegando próximos a 80%, como os dados tem mais gente com target igual a zero como mostra o gráfico de pizza abaixo, teria que ter mais uma coleta de dados que talvez os algoritmos poderiam alcançar resultados melhores, talvez usando outro algoritmo ou usando outra técnica poderia ter uma melhora na perfomace.
+
+![image](https://user-images.githubusercontent.com/39843884/168860146-823da4be-3e24-48a1-a4b9-9ec8b1404aa4.png)
 
 # Referências
 
